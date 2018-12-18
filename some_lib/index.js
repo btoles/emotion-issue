@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+export { ThemeContext } from "@emotion/core";
 
 export { default as theme } from './theme';
 
