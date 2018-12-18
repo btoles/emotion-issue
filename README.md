@@ -7,7 +7,7 @@
 
 The application should load just fine with a *blue* button with *white* font color.
 
-The line in the `render` function that is commented out `Button` will break the app.  It is the same exact code as `LocalComponent` but it is imported from a different library.
+The line in `App.js` `render` function that is commented out `Button` will break the app.  It is the same exact code as `LocalComponent` but it is imported from a different library.
 
 # Expectation
 I would expect the `ThemeProvider` to provide the `ThemeContext` to all of the `styled` components in the application, regardless of their source.
